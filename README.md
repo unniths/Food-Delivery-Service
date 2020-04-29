@@ -5,15 +5,21 @@ We will create two apps that a user can select from a list of items and send the
 
 ### Team Roles: 
 ● Rishi Deendyal - Activities
+
 ● Mohammed Khaliq - Design / Slides
+
 ● Shiva Unnithan - Adapter
+
 ● Ramish Saqib - Database 
 And everyone will have other minor roles as we go along.
 
 ### Identify what building blocks are needed to fulfill the design requirements:
 ● Activities
+
 ● Intents
+
 ● Broadcasts
+
 ● Maps API to track the driver
 
 ### Determine feasibility based on timeline and dependencies
