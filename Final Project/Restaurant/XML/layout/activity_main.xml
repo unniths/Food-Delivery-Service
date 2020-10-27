@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/home"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+
+        <TextView
+            android:text="Rishi Deendyal"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:layout_width="200dp"
+            android:layout_height="50dp" />
+        <TextView
+            android:text="Shiva Unnithan"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:layout_width="200dp"
+            android:layout_height="50dp" />
+        <TextView
+            android:text="Mohammed Khaliq"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:layout_width="200dp"
+            android:layout_height="50dp" />
+        <TextView
+            android:text="Ramish Saqib"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:layout_width="200dp"
+            android:layout_height="50dp" />
+
+
+        <TextView
+            android:text="Restaurant"
+            android:textSize="35dp"
+            android:gravity="center"
+            android:layout_width="200dp"
+            android:layout_height="100dp" />
+
+        <TextView
+            android:text="Food Delivery"
+            android:textSize="40dp"
+            android:gravity="center"
+            android:layout_width="200dp"
+            android:layout_height="100dp" />
+
+        <TextView
+            android:gravity="center"
+            android:id="@+id/txtSlogan"
+            android:textColor="@android:color/black"
+            android:text="You bought it, we brought it"
+            android:textSize="@dimen/text_20"
+            android:layout_width="200dp"
+            android:layout_height="100dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <info.hoang8f.widget.FButton
+            android:id="@+id/btnSignIn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dimen_15"
+            android:layout_weight="1"
+            app:fButtonColor="@color/btn"
+            android:text="@string/Button2"
+            android:textColor="@android:color/black"
+            app:shadowColor="@android:color/black"
+            app:shadowEnabled="true"
+            app:shadowHeight="5dp"
+            app:cornerRadius="4dp"/>
+
+    </LinearLayout>
+</RelativeLayout>
